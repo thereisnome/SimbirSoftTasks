@@ -1,0 +1,22 @@
+package com.example.simbirsofttasks.presentation
+
+enum class Colors(val hex: String) {
+    FLAMINGO("#F64C32"),
+    SANDY_BROWN("#F58163"),
+    SUNSHADE("#FF8A25"),
+    AQUAMARINE("#019875"),
+    PERSIAN_GREEN("#00A693"),
+    DEEP_CERULEAN("#008D9A"),
+    CERULEAN("#09A4DB"),
+    ALLPORTS("#006E9A"),
+    AZURE_RADIANCE("#0078FF"),
+    KASHMIR_BLUE("#465D98"),
+    CORNFLOWER_BLUE("#5F56FC"),
+    MEDIUM_SLATE_BLUE("#7B68EE"),
+    PURPLE("#672399"),
+    MEDIUM_ORCHID("#BA55D3"),
+    FRESH_EGGPLANT("#800080"),
+    RAZZMATAZZ("#DE0065"),
+    AMARANTH("#E73D5D"),
+    RADICAL_RED("#FF4359")
+}

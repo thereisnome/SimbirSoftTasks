@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="task_view_row_width">800dp</dimen>
+    <dimen name="task_view_separator_width">1dp</dimen>
+    <dimen name="task_view_row_height">48sp</dimen>
+
+    <dimen name="task_view_corner_radius">8dp</dimen>
+
+    <dimen name="task_view_vertical_margin">4dp</dimen>
+    <dimen name="task_view_text_horizontal_margin">4dp</dimen>
+
+    <dimen name="task_view_medium_text_size">14sp</dimen>
+    <dimen name="task_view_small_text_size">10sp</dimen>
+</resources>

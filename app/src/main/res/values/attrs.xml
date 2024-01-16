@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TaskView">
+        <attr name="currentTimeColor" format="color" />
+        <attr name="primaryTaskColor" format="color" />
+        <attr name="secondaryTaskColor" format="color" />
+        <attr name="timeTextColor" format="color" />
+        <attr name="taskLightTextColor" format="color" />
+        <attr name="gridColor" format="color" />
+    </declare-styleable>
+
+    <attr name="calendarBackgroundColor" format="color"/>
+    <attr name="hintTextViewColor" format="color"/>
+    <attr name="taskViewStyle" format="reference" />
+
+</resources>
+

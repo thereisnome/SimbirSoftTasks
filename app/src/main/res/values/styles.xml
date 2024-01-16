@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultTaskViewStyle">
+        <item name="currentTimeColor">@color/md_theme_dark_onBackground</item>
+        <item name="primaryTaskColor">@color/md_theme_dark_primaryContainer</item>
+        <item name="secondaryTaskColor">@color/md_theme_dark_secondaryContainer</item>
+        <item name="timeTextColor">@color/md_theme_dark_outline</item>
+        <item name="taskLightTextColor">@color/md_theme_dark_onBackground</item>
+        <item name="gridColor">@color/md_theme_dark_outline</item>
+    </style>
+
+    <style name="Color_chip" parent="Widget.Material3.Chip.Filter">
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Large</item>
+        <item name="chipIconEnabled">false</item>
+    </style>
+    
+    <style name="MyCalendarView">
+        <item name="android:background">?attr/calendarBackgroundColor</item>
+    </style>
+
+</resources>
