@@ -19,8 +19,8 @@ import com.example.simbirsofttasks.databinding.FragmentAddTaskBinding
 import com.example.simbirsofttasks.domain.model.TaskEntity
 import com.example.simbirsofttasks.presentation.Colors
 import com.example.simbirsofttasks.presentation.TaskApp
-import com.example.simbirsofttasks.presentation.viewModels.ViewModelFactory
 import com.example.simbirsofttasks.presentation.viewModels.AddTaskViewModel
+import com.example.simbirsofttasks.presentation.viewModels.ViewModelFactory
 import com.google.android.material.chip.Chip
 import com.google.android.material.datepicker.MaterialDatePicker
 import com.google.android.material.timepicker.MaterialTimePicker
@@ -51,7 +51,7 @@ class AddTaskFragment : Fragment() {
     private var startTime = LocalTime.now()
     private var startDateTime = LocalDateTime.of(startDate, startTime)
     private var endDate = LocalDate.now()
-    private var endTime = LocalTime.of(startTime.hour + 1, startTime.minute)
+    private var endTime = LocalTime.of(startTime.plusHours(1).hour, startTime.minute)
     private var endDateTime = LocalDateTime.of(endDate, endTime)
 
     override fun onAttach(context: Context) {
