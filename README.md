@@ -29,5 +29,5 @@
 # О проекте
 > + Архитектура - MVVM + CleanArchitecture
 > + Другие паттерны: Singlton
-> + Технологии: Room, Dagger2, Navigation component, Kotlin Coroutines, ViewBinding
+> + Технологии: Room, Dagger2, Navigation component, Kotlin Coroutines, LiveData, ViewBinding
 > + Написан простой unit-тест с использованием JUnit и MockK
